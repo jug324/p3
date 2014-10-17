@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('home');
 });
+
+Route::any('text', function()
+{
+ return View::make('text');
+});
