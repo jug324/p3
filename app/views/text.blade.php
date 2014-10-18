@@ -8,7 +8,8 @@ Lorem Ipsum Text Generator
 @section('content')
 	<h4><a href="/">Return to front page</a></h4>
 	<form action="{{url('text')}}" method="POST">
-		<label for="count">Number of paragraphs to generate:</label>
+		{{ Form::token()}}
+		<p><label for="count">Number of paragraphs to generate:</label>
 			<select name="count">
 				<option value="1" >1</option>
 				<option value="2">2</option>
@@ -21,7 +22,7 @@ Lorem Ipsum Text Generator
 				<option value="9">9</option>
 				<option value="10">10</option>
 			</select>
-		
+		</p>
 		<input type="submit" name="submit" value="Generate Text">
 	</form>
 

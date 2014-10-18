@@ -20,3 +20,11 @@ Route::any('text', function()
 {
  return View::make('text');
 });
+Route::any('/user', function()
+{
+	
+ return View::make('user');
+
+	
+
+});
