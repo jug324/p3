@@ -2,10 +2,17 @@
 /* Body Layout */
 #container {width:700px; margin: 1em auto; border:solid thick #fff; padding:1em;}
 h1 {text-align:center; font-size:34px;}
-h4 {text-align:center;}
+h3, h4 {text-align:center;}
 /* Colors */
 body {background-color: #333;}
-h1, h2 {color:#39867E;}
+h1, h2, h3 {color:#39867E;}
+
 p {color:#FFF; text-align:justify;}
 a {color:#ff6600;}
 label {color:#FFF;}
+
+/*From Password Generator */
+.xkcd {border:thick solid #000; width:680px;}
+.password {font-size:large; font-weight:bold;}
+.password p{margin:0em;}
+.passwordbox{border:thick solid #FFF; padding:1em; width:auto; text-align:center; margin-top:0em; color: #ff6600;}
