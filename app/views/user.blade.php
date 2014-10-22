@@ -12,7 +12,7 @@ Random User Generator
 
 {{Form::open(array('url' => '/user', 'method' => 'POST'));}}
 {{Form::label('users', 'Number of users to generate:');}}
-{{Form::selectRange('users', 1, 20);}}</br>
+{{Form::selectRange('users', 1, 20);}}<br>
 {{Form::submit('Generate Users', array('name' => 'submit'));}}
 
 {{Form::close();}}

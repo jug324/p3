@@ -10,7 +10,7 @@ Lorem Ipsum Text Generator
 
 {{Form::open(array('url' => '/text', 'method' => 'POST'));}}
 {{Form::label('count', 'Number of paragraphs to generate:');}}
-{{Form::selectRange('count', 1, 20);}}</br>
+{{Form::selectRange('count', 1, 20);}}<br>
 {{Form::submit('Generate Text', array('name' => 'submit'));}}
 
 {{Form::close();}}
